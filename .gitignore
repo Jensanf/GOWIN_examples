@@ -3,5 +3,4 @@
 04_GW_BTN_LED_simple/impl/
 05_GW_SW_LED_pwm_control/impl/
 03_GW_LED_blink_step/impl/
-*.gprj
 *.user

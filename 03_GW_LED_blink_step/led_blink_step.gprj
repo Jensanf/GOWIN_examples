@@ -1,0 +1,11 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device>gw1n9-008</Device>
+    <FileList>
+        <File path="src/led_blink_step.v" type="file.verilog" enable="1"/>
+        <File path="src/led_blink_step.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
