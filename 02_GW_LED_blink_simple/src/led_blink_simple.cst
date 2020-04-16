@@ -1,0 +1,69 @@
+/***********************************************************************
+ Physical Constraint file
+ Version:        1.1
+ Dev.board:      DK-STAR-GW1N4 V1.1
+ Device:         GW1N-9 [LV9LQ144c6/i5]
+ Package:        LQFP144
+ Author:         jensanf
+ Date:           15/04/2020
+************************************************************************/
+
+//************ SYSTEM ***************
+IO_LOC "FPGA_CLK" 6;        // 50Mhz inter.osc.
+//IO_LOC "F_CLK_SMA" 56;    // CLK_IN ext.
+//IO_LOC "FPGA_RST_N" 92;     // RSET_N 
+
+//************ LEDs ***************
+IO_LOC "F_LED[1]" 47;       // led D3
+//IO_LOC "F_LED[2]" 57;       // led D4
+//IO_LOC "F_LED[3]" 60;       // led D5
+//IO_LOC "F_LED[4]" 61;       // led D6
+
+//********** SWITCHERs ************
+//IO_LOC "F_SW[1]" 68;        // SW4
+//IO_LOC "F_SW[2]" 69;        // SW5
+//IO_LOC "F_SW[3]" 79;        // SW6
+//IO_LOC "F_SW[4]" 80;        // SW7
+
+//********** BUTTONSs *************
+//IO_LOC "F_KEY[1]" 43;       // KEY1
+//IO_LOC "F_KEY[2]" 44;       // KEY2
+//IO_LOC "F_KEY[3]" 45;       // KEY3
+//IO_LOC "F_KEY[4]" 46;       // KEY4
+
+//********** J8 GPIOs *************
+//IO_LOC "H_A_IO[1]"  131;    // Socket_No.3
+//...
+//IO_LOC "H_A_IO[12]" 142;    // Socket_No.14
+//IO_LOC "H_A_IO[13]"   3;    // Socket_No.15
+//IO_LOC "H_A_IO[14]"   4;    // Socket_No.16
+//IO_LOC "H_A_IO[15]"   7;    // Socket_No.17
+//...
+//IO_LOC "H_A_IO[20]"  12;    // Socket_No.22
+//IO_LOC "H_A_IO[21]"  15;    // Socket_No.23
+//IO_LOC "H_A_IO[22]"  23;    // Socket_No.24
+//...
+//IO_LOC "H_A_IO[29]"  30;    // Socket_No.31
+//IO_LOC "H_A_IO[30]"  32;    // Socket_No.32
+//IO_LOC "H_A_IO[31]"  34;    // Socket_No.33
+//IO_LOC "H_A_IO[32]"  38;    // Socket_No.34
+//...
+//IO_LOC "H_A_IO[36]"  42;    // Socket_No.38
+
+//********** J9 GPIOs *************
+//IO_LOC "H_B_IO[1]"  130;    // Socket_No.3
+//...
+//IO_LOC "H_B_IO[3]"  128;    // Socket_No.5
+//IO_LOC "H_B_IO[4]"  126;    // Socket_No.6
+//IO_LOC "H_B_IO[5]"  124;    // Socket_No.7
+//...
+//IO_LOC "H_B_IO[19]" 110;    // Socket_No.21
+//IO_LOC "H_B_IO[20]" 106;    // Socket_No.22
+//IO_LOC "H_B_IO[21]" 104;    // Socket_No.23
+//IO_LOC "H_B_IO[22]" 102;    // Socket_No.24
+//...
+//IO_LOC "H_B_IO[27]"  97;    // Socket_No.29
+//IO_LOC "H_B_IO[28]"  90;    // Socket_No.30
+//IO_LOC "H_B_IO[29]"  88;    // Socket_No.31
+//...
+//IO_LOC "H_B_IO[36]"  81;    // Socket_No.36
